@@ -3,14 +3,14 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # replace with your branch name
+      - gh-pages # replace with your branch name
   pull_request:
     branches:
       - main # replace with your branch name
 
 jobs:
   build:
-    runs-on: windows
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
