@@ -10,6 +10,7 @@ import lady from "../../../src/img/Testimonial/lady.png";
 import mike from "../../../src/img/Testimonial/mike.png";
 import man from "../../../src/img/Testimonial/man.png";
 import shape from "../../../src/img/Testimonial/shape-bg.png";
+import mufeez from '../../../src/img/Testimonial/mufeez.jpg'
 
 export default function Testimonial(props) {
 	let fadeInScreenHandler = (screen) => {
@@ -23,11 +24,14 @@ export default function Testimonial(props) {
 		loop: true,
 		margin: 0,
 		nav: true,
+		navText: ['next', 'prev'],
+		freeDrag: false,
+		autoplay: true,
 		animateIn: "bounceInRight",
 		animateOut: "bounceOutRight",
 		dots: true,
-		autoplay: true,
 		smartSpeed: 1000,
+		autoplayHoverPause: true,
 		responsive: {
 			0: {
 				items: 1,
@@ -42,7 +46,7 @@ export default function Testimonial(props) {
 	};
 	return (
 		<div>
-			<ScreenHeading title={'Testimonial'} subHeading={'What My Client Say About Me'} />
+			<ScreenHeading title={'Recommendations'} subHeading={'What People Say About Me'} />
 			<section className='testimonial-section fade-in' id={props.id || ''}>
 				<div className="container">
 					<div className="row">
@@ -56,9 +60,7 @@ export default function Testimonial(props) {
 									<div className="testi-comment">
 										<p>
 											<i className="fa fa-quote-left" />
-											I patronized Ehizeex and when He delivered, I honestly
-											fell in love with the project He is a very honest guy and
-											he delivers ontime.
+											<a href="http://www.retailcenter.io">www.retailcenter.io</a> and <a href="http://app.retailcenter.io">Finecart</a>  is built with Major Contribution from Haseeb ,its truly challenging to build a Saas Platform without a Large Team without a Large Team though he was accompanied by Copilot.
 											<i className="fa fa-quote-right" />
 										</p>
 										<ul className="stars list-unstyled">
@@ -80,9 +82,9 @@ export default function Testimonial(props) {
 										</ul>
 									</div>
 									<div className="client-info">
-										<img src={lady} alt="no internet connection"></img>
-										<h5>Daisy Dominic</h5>
-										<p>CEO InansGlobal</p>
+										<img src={mufeez} alt="no internet connection"></img>
+										<h5>Mufeez Ahmed</h5>
+										<p>CEO Mufeed Products & Services Pvt Ltd</p>
 									</div>
 								</div>
 							</div>

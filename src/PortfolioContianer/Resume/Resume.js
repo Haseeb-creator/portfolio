@@ -37,7 +37,11 @@ export default function Resume(props) {
 				<div className="resume-heading-description">
 					<span>{props.description ? props.description : ""}</span>
 				</div>
-			</div>
+				{props.link &&
+					<div className="resume-heading-description">
+						<span><a href={props.link ? props.link : ''} target='_blank' rel="noreferrer"  > Poject Link </a></span>
+					</div>}
+			</div >
 		);
 	};
 
@@ -66,27 +70,30 @@ export default function Resume(props) {
 
 	const projectsDetails = [
 		{
+			title: "Finecart (Saas Platform) ",
+			duration: { fromDate: "2020", toDate: "2023" },
+			description:
+				"An ecommerce application designed to sell products online Based on marketPlace",
+			subHeading:
+				"Technologies Used:  React Js, Mongo DB, Express Js, Node Js, Redux.",
+			projectLink: 'https://app.retailcenter.io'
+		},
+		{
 			title: "Personal Portfolio Website",
-			duration: { fromDate: "2020", toDate: "2021" },
+			duration: { fromDate: "2022", toDate: "2023" },
 			description:
 				"A Personal Portfolio website to showcase all my details and projects at one place.",
 			subHeading: "Technologies Used: React JS, Bootsrap",
+			projectLink: 'https://haseeb-creator.github.io/portfolio/'
 		},
 		{
-			title: "Mobile E-shop ",
+			title: "Drum Kit",
 			duration: { fromDate: "2020", toDate: "2021" },
 			description:
-				"An ecommerce application designed to sell products online wth payment system integration",
+				"You can play music either by clicking on a key or by clicking on the screen.",
 			subHeading:
-				"Technologies Used:  React Native, Mongo DB, Express Js, Node Js, Redux.",
-		},
-		{
-			title: "Ecommerce Website ",
-			duration: { fromDate: "2020", toDate: "2021" },
-			description:
-				"Online ecommerce website for showcasing and selling products onlne with payment system integration, both Paypal and Stripe",
-			subHeading:
-				"Technologies Used: Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
+				"Technologies Used: html, Css, Javascript.",
+			projectLink: "https://haseeb-creator.github.io/Drum-Kit/",
 		},
 	];
 
@@ -96,7 +103,7 @@ export default function Resume(props) {
 				heading={"Bachelor of Engineering"}
 				subHeading={"CMR Institute of Technology   -  Bengaluru"}
 				fromDate={"2016"}
-				toDate={"2020"}
+				toDate={"2019"}
 			/>
 
 			<ResumeHeading
@@ -180,6 +187,7 @@ export default function Resume(props) {
 					heading={projectsDetails.title}
 					subHeading={projectsDetails.subHeading}
 					description={projectsDetails.description}
+					link={projectsDetails.projectLink}
 					fromDate={projectsDetails.duration.fromDate}
 					toDate={projectsDetails.duration.toDate}
 				/>
@@ -189,16 +197,16 @@ export default function Resume(props) {
 		/* Interests */
 		<div className="resume-screen-container" key="interests">
 			<ResumeHeading
-				heading="Teaching"
-				description="Apart from being a tech enthusiast and a code writer, i also love to teach people what i know simply because i believe in sharing."
-			/>
-			<ResumeHeading
 				heading="Music"
 				description="Listening to soothing music is something i can never compromise with, skimming through Spotify's pop songs charts is at times the best stress reliever that i can get my hands on."
 			/>
 			<ResumeHeading
 				heading="Competitive Gaming"
-				description="I like to challenge my reflexes a lot while competing in football games, pushing the rank and having interactive gaming sessions excites me the most."
+				description="I like to challenge my reflexes a lot while competing in Cricket games, pushing the rank and having interactive gaming sessions excites me the most."
+			/>
+			<ResumeHeading
+				heading="Teaching"
+				description="Apart from being a tech enthusiast and a code writer, i also love to teach people what i know simply because i believe in sharing."
 			/>
 		</div>,
 	];

@@ -3,6 +3,7 @@ import AboutMe from '../PortfolioContianer/AboutMe/AboutMe'
 import Resume from '../PortfolioContianer/Resume/Resume'
 import Testimonial from '../PortfolioContianer/Testimonial/Testimonial'
 import ContactMe from '../PortfolioContianer/ContactMe/ContactMe'
+import Blog from '../PortfolioContianer/Blogs/Blog'
 
 
 export const TOTAL_SCREENS = [
@@ -21,6 +22,10 @@ export const TOTAL_SCREENS = [
 	}, {
 		screen_name: 'ContactMe',
 		component: ContactMe,
+	}
+	, {
+		screen_name: 'Blogs',
+		component: Blog,
 	}
 ]
 
