@@ -1,0 +1,34 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # replace with your branch name
+  pull_request:
+    branches:
+      - main # replace with your branch name
+
+jobs:
+  build:
+    runs-on: windows
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14.5.0' # replace with your desired Node.js version
+
+      - name: Install dependencies
+        run: npm install # replace with your package manager command if using a different one
+
+      - name: Build site
+        run: npm run build # replace with your build command
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.4.1 # replace with your desired deployment action version
+        with:
+          branch: gh-pages # replace with your GitHub Pages branch name
+          folder: build # replace with the output folder containing your built site
