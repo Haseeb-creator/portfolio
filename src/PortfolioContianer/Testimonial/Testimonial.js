@@ -6,9 +6,9 @@ import ScreenHeading from '../../Utilities/ScreenHeading/ScreenHeading';
 import ScrollService from '../../Utilities/ScrollService';
 import Animations from '../../Utilities/Animation';
 import "./Testimonial.css";
-import lady from "../../../src/img/Testimonial/lady.png";
+/* import lady from "../../../src/img/Testimonial/lady.png";
 import mike from "../../../src/img/Testimonial/mike.png";
-import man from "../../../src/img/Testimonial/man.png";
+import man from "../../../src/img/Testimonial/man.png"; */
 import shape from "../../../src/img/Testimonial/shape-bg.png";
 import mufeez from '../../../src/img/Testimonial/mufeez.jpg'
 import zain from '../../../src/img/Testimonial/zain.jpeg'
