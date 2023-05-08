@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.25d61556.css",
-    "main.js": "/portfolio/static/js/main.c9e59207.js",
+    "main.js": "/portfolio/static/js/main.bc180b1d.js",
     "static/js/787.cda612ba.chunk.js": "/portfolio/static/js/787.cda612ba.chunk.js",
     "static/media/bg-1.jpg": "/portfolio/static/media/bg-1.e7a118c397efc44bbf9e.jpg",
     "static/media/Poppins-Thin.ttf": "/portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
@@ -11,13 +11,12 @@
     "static/media/Poppins-SemiBold.ttf": "/portfolio/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
     "static/media/Poppins-Bold.ttf": "/portfolio/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
     "static/media/Poppins-ExtraBold.ttf": "/portfolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
-    "static/media/lady.png": "/portfolio/static/media/lady.2c54ef6a69cfe97e520f.png",
-    "static/media/mike.png": "/portfolio/static/media/mike.8af8bcf1a1892426bb8d.png",
     "static/media/mailz.jpeg": "/portfolio/static/media/mailz.d13d5e32cbc73884b526.jpeg",
-    "static/media/man.png": "/portfolio/static/media/man.bd25aa3831d20f3de330.png",
     "static/media/mufeez.jpg": "/portfolio/static/media/mufeez.3d336967a59207049344.jpg",
     "static/media/me.jpg": "/portfolio/static/media/me.d4a446a4e1db01c324b4.jpg",
     "static/media/profilephoto.jpg": "/portfolio/static/media/profilephoto.fa54858036571cbb0563.jpg",
+    "static/media/person.jpg": "/portfolio/static/media/person.4ef9a4adaea354157759.jpg",
+    "static/media/zain.jpeg": "/portfolio/static/media/zain.edd815887d6f50d92915.jpeg",
     "static/media/bg.jpg": "/portfolio/static/media/bg.b3cd2e6f0f790d3d3e55.jpg",
     "index.html": "/portfolio/index.html",
     "static/media/programming-skills.svg": "/portfolio/static/media/programming-skills.3bdce3e65068107428a1.svg",
@@ -26,11 +25,11 @@
     "static/media/education.svg": "/portfolio/static/media/education.9ed8b53812c3beb648e1.svg",
     "static/media/work-history.svg": "/portfolio/static/media/work-history.f8127a79c81e4defe8bc.svg",
     "main.25d61556.css.map": "/portfolio/static/css/main.25d61556.css.map",
-    "main.c9e59207.js.map": "/portfolio/static/js/main.c9e59207.js.map",
+    "main.bc180b1d.js.map": "/portfolio/static/js/main.bc180b1d.js.map",
     "787.cda612ba.chunk.js.map": "/portfolio/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.25d61556.css",
-    "static/js/main.c9e59207.js"
+    "static/js/main.bc180b1d.js"
   ]
 }
