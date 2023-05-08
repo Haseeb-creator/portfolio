@@ -11,6 +11,8 @@ import mike from "../../../src/img/Testimonial/mike.png";
 import man from "../../../src/img/Testimonial/man.png";
 import shape from "../../../src/img/Testimonial/shape-bg.png";
 import mufeez from '../../../src/img/Testimonial/mufeez.jpg'
+import zain from '../../../src/img/Testimonial/zain.jpeg'
+import person from '../../../src/img/Testimonial/person.jpg'
 
 export default function Testimonial(props) {
 	let fadeInScreenHandler = (screen) => {
@@ -22,16 +24,8 @@ export default function Testimonial(props) {
 		ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 	const options = {
 		loop: true,
-		margin: 0,
-		nav: true,
-		navText: ['next', 'prev'],
-		freeDrag: false,
 		autoplay: true,
-		animateIn: "bounceInRight",
-		animateOut: "bounceOutRight",
-		dots: true,
-		smartSpeed: 1000,
-		autoplayHoverPause: true,
+		smartSpeed: 1600,
 		responsive: {
 			0: {
 				items: 1,
@@ -40,7 +34,7 @@ export default function Testimonial(props) {
 				items: 1,
 			},
 			1000: {
-				items: 3,
+				items: 2,
 			},
 		},
 	};
@@ -74,10 +68,10 @@ export default function Testimonial(props) {
 												<i className="fa fa-star" />
 											</li>
 											<li>
-												<i className="fa fa-star-half-alt" />
+												<i className="fa fa-star" />
 											</li>
 											<li>
-												<i className="fa fa-star" />
+												<i className="fas fa-star-half-alt"></i>
 											</li>
 										</ul>
 									</div>
@@ -93,9 +87,75 @@ export default function Testimonial(props) {
 									<div className="testi-comment">
 										<p>
 											<i className="fa fa-quote-left" />
-											It was nice hiring this guy for my e-commerce project.He
-											delivered even more than i can imagine. I recommend him
-											for you.
+											An exceptional front-end developer with expertise in software engineering and a talent for writing clean and efficient code, coupled with a willingness to go the extra mile, is highly recommended for any React Js project.
+											<i className="fa fa-quote-right" />
+										</p>
+										<ul className="stars list-unstyled">
+											<li>
+												<i className="fa fa-star" />
+											</li>
+											<li>
+												<i className="fa fa-star" />
+											</li>
+											<li>
+												<i className="fa fa-star" />
+											</li>
+											<li>
+												<i className="fa fa-star" />
+											</li>
+											<li>
+												<i className="fa fa-star-half-alt" />
+											</li>
+										</ul>
+									</div>
+									<div className="client-info">
+										<img src={zain} alt="no internet connection"></img>
+										<h5>Md Zainul Abedin  </h5>
+										<p>Senior Backup Administrator at Microland</p>
+									</div>
+								</div>
+							</div>
+							<div className="col-lg-12">
+								<div className="testi-item">
+									<div className="testi-comment">
+										<p>
+											<i className="fa fa-quote-left" />
+											expedita provident architecto, mollitia culpa obcaecati animi ut! Corporis dolores obcaecati nemo, quibusdam recusandae voluptates eum iusto consequuntur illo porro voluptatum vero.consequuntur illo porro voluptatum vero voluptatum vero.
+											<i className="fa fa-quote-right" />
+										</p>
+										{/* <ul className="stars list-unstyled">
+											<li>
+												<i className="fa fa-star" />
+											</li>
+											<li>
+												<i className="fa fa-star" />
+											</li>
+											<li>
+												<i className="fa fa-star" />
+											</li>
+											<li>
+												<i className="fa fa-star" />
+											</li>
+											<li>
+												<i className="fa fa-star-half-alt" />
+											</li>
+										</ul> */}
+									</div>
+									<div className="client-info">
+										<img src={person} alt="no internet connection"></img>
+										<h5>person</h5>
+										<p>position</p>
+									</div>
+								</div>
+							</div>
+							{/* 	<div className="col-lg-12">
+								<div className="testi-item">
+									<div className="testi-comment">
+										<p>
+											<i className="fa fa-quote-left" />
+											This guy is incredibly awesome, I hired him and when He
+											delivered, I honestly fell in love with the project. He is
+											indeed a great guy,
 											<i className="fa fa-quote-right" />
 										</p>
 										<ul className="stars list-unstyled">
@@ -117,9 +177,9 @@ export default function Testimonial(props) {
 										</ul>
 									</div>
 									<div className="client-info">
-										<img src={mike} alt="no internet connection"></img>
-										<h5>Mikel</h5>
-										<p>CEO MikeTech</p>
+										<img src={man} alt="no internet connection"></img>
+										<h5>John Smith</h5>
+										<p>Bnaker</p>
 									</div>
 								</div>
 							</div>
@@ -192,77 +252,7 @@ export default function Testimonial(props) {
 										<p>Bnaker</p>
 									</div>
 								</div>
-							</div>
-							<div className="col-lg-12">
-								<div className="testi-item">
-									<div className="testi-comment">
-										<p>
-											<i className="fa fa-quote-left" />
-											When he delivered my job, my head spinned, it was so nice
-											and he implemented every functionality i requested for.
-											Thank you.
-											<i className="fa fa-quote-right" />
-										</p>
-										<ul className="stars list-unstyled">
-											<li>
-												<i className="fa fa-star" />
-											</li>
-											<li>
-												<i className="fa fa-star" />
-											</li>
-											<li>
-												<i className="fa fa-star" />
-											</li>
-											<li>
-												<i className="fa fa-star-half-alt" />
-											</li>
-											<li>
-												<i className="fa fa-star" />
-											</li>
-										</ul>
-									</div>
-									<div className="client-info">
-										<img src={lady} alt="no internet connection"></img>
-										<h5>Daisy Dominic</h5>
-										<p>CEO InansGlobal</p>
-									</div>
-								</div>
-							</div>
-							<div className="col-lg-12">
-								<div className="testi-item">
-									<div className="testi-comment">
-										<p>
-											<i className="fa fa-quote-left" />
-											This guy is incredibly awesome, I hired him and when He
-											delivered, I honestly fell in love with the project. He is
-											indeed a great guy,
-											<i className="fa fa-quote-right" />
-										</p>
-										<ul className="stars list-unstyled">
-											<li>
-												<i className="fa fa-star" />
-											</li>
-											<li>
-												<i className="fa fa-star" />
-											</li>
-											<li>
-												<i className="fa fa-star" />
-											</li>
-											<li>
-												<i className="fa fa-star-half-alt" />
-											</li>
-											<li>
-												<i className="fa fa-star" />
-											</li>
-										</ul>
-									</div>
-									<div className="client-info">
-										<img src={man} alt="no internet connection"></img>
-										<h5>John Smith</h5>
-										<p>Bnaker</p>
-									</div>
-								</div>
-							</div>
+							</div> */}
 						</OwlCarousel>
 					</div>
 				</div>
