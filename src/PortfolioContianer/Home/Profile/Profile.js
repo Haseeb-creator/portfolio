@@ -57,14 +57,13 @@ const Profile = () => {
 						<button className="btn primary-btn"
 							onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
 						>Hire Me</button>
-						<a href="Haseeb_Resume.pdf" download={'Haseeb_Resume.pdf'} >
+						<a href="Haseeb_Resume_Full-Stack.pdf" download={'Haseeb_Resume_Full-Stack.pdf'} >
 							<button className="btn highlighted-btn">Get Resume</button>
 						</a>
 					</div>
 				</div>
 				<div className="profile-picture">
 					<div className="profile-picture-background">
-
 					</div>
 				</div>
 			</div>

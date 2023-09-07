@@ -24,7 +24,7 @@ export default function AboutMe(props) {
 				"Interactive Front End as per the design",
 				"Authentication and authorization",
 				"Knowledge of other web technologies",
-				"Redux for State Mnanagement",
+				"Redux for State Management",
 				"Building REST API",
 				"Managing database",
 			],
@@ -61,8 +61,7 @@ export default function AboutMe(props) {
 								className="btn primary-btn"
 								onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
 							>
-								{" "}
-								Hire Me{" "}
+								Hire Me
 							</button>
 							<a href="Haseeb_Resume_Full-Stack.pdf" download="Haseeb_Resume_Full-Stack.pdf">
 								<button className="btn highlighted-btn">Get Resume</button>
